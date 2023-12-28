@@ -1,0 +1,29 @@
+{
+  "name": "@magister_zito/eslint-config-collection",
+  "version": "0.0.1",
+  "description": "Shared eslint configurations",
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "license": "MIT",
+  "author": "Matthew Zito <exbotanical@protonmail.com>",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "format": "prettier . --write --ignore-path node_modules/@magister_zito/prettier-config/.prettierignore",
+    "lint": "eslint . --fix",
+    "prep": "pnpm lint && pnpm format && git add .",
+    "release": "lerna publish --conventional-commits"
+  },
+  "devDependencies": {
+    "@magister_zito/eslint-config": "*",
+    "@magister_zito/prettier-config": "^0.0.3",
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "8.6.0",
+    "lerna": "^4.0.0",
+    "prettier": "2.5.0",
+    "typescript": "^4.7"
+  },
+  "prettier": "@magister_zito/prettier-config"
+}
