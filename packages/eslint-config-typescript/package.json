@@ -1,0 +1,25 @@
+{
+    "name": "@notafunction/eslint-config-typescript",
+    "version": "0.1.0",
+    "author": "Matt Latham <matt@mattlatham.dev>",
+    "license": "MIT",
+    "main": "index.js",
+    "files": [
+        "index.js"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^6.18.1",
+        "@typescript-eslint/parser": "^6.18.1",
+        "eslint": "^8.56.0"
+    },
+    "peerDependencies": {
+        "eslint": ">=8.0",
+        "typescript": ">=4.5"
+    },
+    "dependencies": {
+        "@notafunction/eslint-config-base": "^0.1.0"
+    }
+}

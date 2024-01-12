@@ -1,0 +1,21 @@
+{
+    "name": "@notafunction/eslint-config-collection",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "author": "Matt Latham <matt@mattlatham.dev>",
+    "devDependencies": {
+        "@notafunction/prettier-config": "^1.0.2",
+        "eslint": "^8.56.0",
+        "eslint-config-prettier": "^9.1.0",
+        "lerna": "^8.0.2",
+        "prettier": "^3.1.1"
+    },
+    "scripts": {
+        "prettier": "prettier . --write --ignore-path node_modules/@notafunction/prettier-config/.prettierignore",
+        "lint": "eslint . --fix",
+        "prep": "npm run lint && npm run prettier && git add .",
+        "release": "lerna publish --conventional-commits"
+    }
+}

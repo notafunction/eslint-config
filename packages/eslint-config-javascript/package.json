@@ -1,0 +1,25 @@
+{
+    "name": "@notafunction/eslint-config-javascript",
+    "version": "0.1.0",
+    "license": "MIT",
+    "author": "Matt Latham <matt@mattlatham.dev>",
+    "files": [
+        "index.js"
+    ],
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint . --config=index.js --fix"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "peerDependencies": {
+        "eslint": ">=8.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.56.0"
+    },
+    "dependencies": {
+        "@notafunction/eslint-config-base": "^0.1.0"
+    }
+}

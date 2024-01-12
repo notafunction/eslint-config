@@ -1,0 +1,6 @@
+{
+    "extends": ["@notafunction", "prettier"],
+    "rules": {
+        "sort-keys": "error"
+    }
+}

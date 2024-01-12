@@ -1,0 +1,26 @@
+{
+    "name": "@notafunction/eslint-config-vue",
+    "version": "0.1.0",
+    "author": "Matt Latham <matt@mattlatham.dev>",
+    "license": "MIT",
+    "main": "index.js",
+    "files": [
+        "index.js"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "devDependencies": {
+        "eslint": "^8.56.0",
+        "typescript": "^5.3.3"
+    },
+    "peerDependencies": {
+        "eslint": ">=8.0"
+    },
+    "dependencies": {
+        "@notafunction/eslint-config-base": "^0.1.0",
+        "@notafunction/eslint-config-typescript": "^0.1.0",
+        "eslint-plugin-vue": "^9.20.0",
+        "eslint-plugin-vuejs-accessibility": "^2.2.0"
+    }
+}
