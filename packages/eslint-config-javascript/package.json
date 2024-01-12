@@ -1,6 +1,6 @@
 {
     "name": "@notafunction/eslint-config-javascript",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "license": "MIT",
     "author": "Matt Latham <matt@mattlatham.dev>",
     "files": [
@@ -20,6 +20,6 @@
         "eslint": "^8.56.0"
     },
     "dependencies": {
-        "@notafunction/eslint-config-base": "^0.1.0"
+        "@notafunction/eslint-config-base": "^0.1.1"
     }
 }

@@ -1,6 +1,6 @@
 {
     "name": "@notafunction/eslint-config-typescript",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "author": "Matt Latham <matt@mattlatham.dev>",
     "license": "MIT",
     "main": "index.js",
@@ -20,6 +20,6 @@
         "typescript": ">=4.5"
     },
     "dependencies": {
-        "@notafunction/eslint-config-base": "^0.1.0"
+        "@notafunction/eslint-config-base": "^0.1.1"
     }
 }
