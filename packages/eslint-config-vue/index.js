@@ -27,7 +27,7 @@ module.exports = {
         'vue/html-closing-bracket-spacing': 'off',
         'vue/html-indent': [
             'error',
-            2,
+            4,
             {
                 alignAttributesVertically: true,
                 attribute: 1,
