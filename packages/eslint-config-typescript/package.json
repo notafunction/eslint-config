@@ -21,5 +21,6 @@
     },
     "dependencies": {
         "@notafunction/eslint-config-base": "^0.2.0"
-    }
+    },
+    "gitHead": "7202526c0a8d6ec0804ee8ae18bd8e153a36c3a0"
 }
